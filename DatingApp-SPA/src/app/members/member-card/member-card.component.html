@@ -6,7 +6,7 @@
         <button [routerLink]="['/members/', user.id]" routerLinkActive="router-link-active"  class="btn btn-primary"><li class="fa fa-user"></li></button>
       </li>
       <li class="list-inline-item">
-          <button class="btn btn-primary"><li class="fa fa-heart"></li></button>
+          <button class="btn btn-primary" (click)="sendLike(user.id)"><li class="fa fa-heart"></li></button>
       </li>
       <li class="list-inline-item">
           <button class="btn btn-primary"><li class="fa fa-envelope"></li></button>
