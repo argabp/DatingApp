@@ -9,7 +9,7 @@
           <button class="btn btn-primary" (click)="sendLike(user.id)"><li class="fa fa-heart"></li></button>
       </li>
       <li class="list-inline-item">
-          <button class="btn btn-primary"><li class="fa fa-envelope"></li></button>
+          <button class="btn btn-primary" [routerLink]="['/members/', user.id]" [queryParams]="{tab: 3}" ><li class="fa fa-envelope"></li></button>
       </li>  
     </ul>
   </div>

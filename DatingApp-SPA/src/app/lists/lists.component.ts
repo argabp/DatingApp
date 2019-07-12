@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { Pagination, PaginatedResult } from '../_module/pagination';
+import { Pagination, PaginatedResult } from '../_models/pagination';
 import { AuthService } from '../_services/auth.service';
 import { UserService } from '../_services/user.service';
 import { ActivatedRoute } from '@angular/router';
-import { User } from '../_module/user';
+import { User } from '../_models/user';
 import { AlertifyService } from '../_services/alertify.service';
 
 @Component({
